@@ -76,11 +76,10 @@ Este proyecto (contenido, imágenes y archivos del sitio) está licenciado bajo 
 Resumen rápido de la licencia:
 
 - Puedes compartir y adaptar el material, incluso para fines comerciales.
-- Debes atribuir la obra al autor original: Halepensis.
+- Debes atribuir la obra al autor original: CarrasCode.
 - Debes indicar si has realizado cambios y proporcionar un enlace a la licencia: https://creativecommons.org/licenses/by/4.0/
 
-El archivo `LICENSE` contiene el texto completo de la licencia.
 
-Si prefieres una licencia diferente para el código fuente (por ejemplo MIT para el código y CC BY para los contenidos), dímelo y la añadimos.
+
 
 
