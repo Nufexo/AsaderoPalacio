@@ -13,20 +13,7 @@ export const ProductInfo = ({
           {lang === 'es' && producto.name.es}
           {lang === 'en' && producto.name.en}
         </h2>
-        <p className='producto__price'>
-          {typeof producto.price == 'number' && (
-            <strong>{producto.price}€</strong>
-          )}
 
-          {typeof producto.price == 'object' &&
-            Object.entries(producto.price).map(([size, price]) => {
-              return (
-                <strong>
-                  {size} : {price}€ |
-                </strong>
-              )
-            })}
-        </p>
         <p className='producto__desc'>
           {lang === 'es' && producto.description.es}
           {lang === 'en' && producto.description.en}

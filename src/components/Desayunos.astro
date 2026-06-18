@@ -47,12 +47,8 @@ const i18 = getI18n(local)
     {i18.DESAYUNOS__P}
   </p>
 
-  <ul class='desayunos__price'>
-    <li>1L: 6€</li>
-    <li>1/2L: 4.20€</li>
-    <li>1 vaso : 2€</li>
-  </ul>
-  <strong class='desayunos__desc'>{i18.DESAYUNOS__HORARIO}</strong>
+
+  <strong class='desayunos__horario'>{i18.DESAYUNOS__HORARIO}</strong>
 </article>
 
 <style>
@@ -86,14 +82,13 @@ const i18 = getI18n(local)
     font-size: var(--size-lg);
   }
 
-  .desayunos__price {
-    display: flex;
-    flex-direction: column;
-    gap: var(--size-base);
-    align-items: center;
-    font-size: var(--size-lg);
-    list-style: none;
+  .desayunos__horario {
+    margin: 1.5rem auto 0;
+    text-align: center;
+    font-size: var(--size-xl);
   }
+
+
 
   /* MOBILE FIRST  */
 
@@ -120,9 +115,11 @@ const i18 = getI18n(local)
     .desayunos__desc {
       font-size: var(--size-2xl);
     }
-    .desayunos__price {
+    .desayunos__horario {
       font-size: var(--size-2xl);
+      margin-top: 2rem;
     }
+
   }
 
   /* lg */
